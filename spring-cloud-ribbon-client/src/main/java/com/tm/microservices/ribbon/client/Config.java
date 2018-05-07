@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@RibbonClient(name = "lucky-number-service")
+@RibbonClient(name = "lucky-number-service", configuration = LuckyNumberClientConfiguration.class)
 public class Config {
     @Bean
     @LoadBalanced
