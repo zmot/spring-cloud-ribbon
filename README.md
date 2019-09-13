@@ -1,5 +1,5 @@
 # spring-cloud-ribbon
-Spring Cloud Ribbon example - client-side load balancing
+Spring Cloud Ribbon example - client-side load balancing fun
 
 * `spring-cloud-ribbon-ws` - specifies a very basic service
   * <http://localhost:8080/lucky-number>
